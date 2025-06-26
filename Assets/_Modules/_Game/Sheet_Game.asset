@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7580e91ba8c57d64db9a909183b608b8, type: 3}
+  m_Name: Sheet_Game
+  m_EditorClassIdentifier: 
+  serverUrl: https://gapustudio.net/gsheet
+  spreadsheetId: 1-BrCjyNtJT2B7evddac-JKy8hhTc27WPsV6fZXRV2_A
+  idLookupFileName: SheetIds
+  sheets:
+  - sheetName: LevelRepo
+    targetClass: Games.SheetLevelModel, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+    majorDimension: 0
+    fieldNames:
+    - PrefabAddress
+  - sheetName: LevelDev
+    targetClass: Mimi.Prototypes.LevelManagement.SheetOrderModel, Assembly-CSharp,
+      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    majorDimension: 0
+    fieldNames: []
+  cachedJsonData: '{"LevelRepo":[{"Id":"L1","PrefabAddress":"L_001","Difficulty":"Easy","Time":"180","Coin":"40","NewFeature":"0","CameraFov":"34"},{"Id":"L2","PrefabAddress":"L_002","Difficulty":"Easy","Time":"180","Coin":"40","NewFeature":"0","CameraFov":"39"},{"Id":"L3","PrefabAddress":"L_003","Difficulty":"Easy","Time":"180","Coin":"40","NewFeature":"0","CameraFov":"39"},{"Id":"L4","PrefabAddress":"L_004","Difficulty":"Easy","Time":"180","Coin":"40","NewFeature":"0","CameraFov":"39"},{"Id":"L5","PrefabAddress":"L_005","Difficulty":"Easy","Time":"180","Coin":"40","NewFeature":"0","CameraFov":"39"},{"Id":"L6","PrefabAddress":"L_006","Difficulty":"Easy","Time":"180","Coin":"40","NewFeature":"0","CameraFov":"44"},{"Id":"L7","PrefabAddress":"L_007","Difficulty":"Easy","Time":"180","Coin":"40","NewFeature":"1","CameraFov":"44"},{"Id":"L8","PrefabAddress":"L_008","Difficulty":"Easy","Time":"180","Coin":"40","NewFeature":"0","CameraFov":"44"},{"Id":"L9","PrefabAddress":"L_009","Difficulty":"Easy","Time":"180","Coin":"40","NewFeature":"0","CameraFov":"44"},{"Id":"L10","PrefabAddress":"L_010","Difficulty":"Easy","Time":"180","Coin":"40","NewFeature":"0","CameraFov":"39"},{"Id":"L11","PrefabAddress":"L_011","Difficulty":"Easy","Time":"180","Coin":"40","NewFeature":"0","CameraFov":"52"},{"Id":"L12","PrefabAddress":"L_012","Difficulty":"Easy","Time":"180","Coin":"40","NewFeature":"0","CameraFov":"44"},{"Id":"L13","PrefabAddress":"L_013","Difficulty":"Easy","Time":"180","Coin":"40","NewFeature":"0","CameraFov":"51"},{"Id":"L14","PrefabAddress":"L_014","Difficulty":"Easy","Time":"180","Coin":"40","NewFeature":"0","CameraFov":"51"},{"Id":"L15","PrefabAddress":"L_015","Difficulty":"Easy","Time":"180","Coin":"40","NewFeature":"2","CameraFov":"51"},{"Id":"L16","PrefabAddress":"L_016","Difficulty":"Easy","Time":"180","Coin":"40","NewFeature":"0","CameraFov":"51"},{"Id":"L17","PrefabAddress":"L_017","Difficulty":"Easy","Time":"180","Coin":"40","NewFeature":"0","CameraFov":"51"},{"Id":"L18","PrefabAddress":"L_018","Difficulty":"Easy","Time":"180","Coin":"40","NewFeature":"0","CameraFov":"62"},{"Id":"L19","PrefabAddress":"L_019","Difficulty":"Easy","Time":"180","Coin":"40","NewFeature":"0","CameraFov":"47"},{"Id":"L20","PrefabAddress":"L_020","Difficulty":"Easy","Time":"180","Coin":"40","NewFeature":"0","CameraFov":"51"},{"Id":"L21","PrefabAddress":"L_021","Difficulty":"Easy","Time":"180","Coin":"40","NewFeature":"0","CameraFov":"53"},{"Id":"L22","PrefabAddress":"L_022","Difficulty":"Easy","Time":"180","Coin":"40","NewFeature":"0","CameraFov":"44"},{"Id":"L23","PrefabAddress":"L_023","Difficulty":"Easy","Time":"180","Coin":"40","NewFeature":"0","CameraFov":"51"},{"Id":"L24","PrefabAddress":"L_024","Difficulty":"Easy","Time":"180","Coin":"40","NewFeature":"0","CameraFov":"49"},{"Id":"L25","PrefabAddress":"L_025","Difficulty":"Easy","Time":"180","Coin":"40","NewFeature":"3","CameraFov":"49"},{"Id":"L26","PrefabAddress":"L_026","Difficulty":"Easy","Time":"180","Coin":"40","NewFeature":"0","CameraFov":"49"},{"Id":"L27","PrefabAddress":"L_027","Difficulty":"Easy","Time":"180","Coin":"40","NewFeature":"0","CameraFov":"49"},{"Id":"L28","PrefabAddress":"L_028","Difficulty":"Easy","Time":"180","Coin":"40","NewFeature":"0","CameraFov":"49"},{"Id":"L29","PrefabAddress":"L_029","Difficulty":"Easy","Time":"180","Coin":"40","NewFeature":"0","CameraFov":"49"},{"Id":"L30","PrefabAddress":"L_030","Difficulty":"Easy","Time":"180","Coin":"40","NewFeature":"0","CameraFov":"49"},{"Id":"L31","PrefabAddress":"L_031","Difficulty":"Easy","Time":"180","Coin":"40","NewFeature":"0","CameraFov":"49"},{"Id":"L32","PrefabAddress":"L_032","Difficulty":"Easy","Time":"180","Coin":"40","NewFeature":"0","CameraFov":"49"},{"Id":"L33","PrefabAddress":"L_033","Difficulty":"Easy","Time":"180","Coin":"40","NewFeature":"0","CameraFov":"49"},{"Id":"L34","PrefabAddress":"L_034","Difficulty":"Easy","Time":"180","Coin":"40","NewFeature":"0","CameraFov":"49"},{"Id":"L35","PrefabAddress":"L_037","Difficulty":"Easy","Time":"180","Coin":"40","NewFeature":"0","CameraFov":"49"},{"Id":"L36","PrefabAddress":"L_038","Difficulty":"Easy","Time":"180","Coin":"40","NewFeature":"0","CameraFov":"49"},{"Id":"L37","PrefabAddress":"L_039","Difficulty":"Easy","Time":"180","Coin":"40","NewFeature":"0","CameraFov":"49"},{"Id":"L38","PrefabAddress":"L_040","Difficulty":"Easy","Time":"180","Coin":"40","NewFeature":"0","CameraFov":"49"},{"Id":"L39","PrefabAddress":"L_041","Difficulty":"Easy","Time":"180","Coin":"40","NewFeature":"0","CameraFov":"49"},{"Id":"L40","PrefabAddress":"L_042","Difficulty":"Easy","Time":"180","Coin":"40","NewFeature":"0","CameraFov":"49"}],"LevelDev":[{"Id":"L1"},{"Id":"L2"},{"Id":"L3"},{"Id":"L4"},{"Id":"L5"},{"Id":"L6"},{"Id":"L7"},{"Id":"L8"},{"Id":"L9"},{"Id":"L10"},{"Id":"L11"},{"Id":"L12"},{"Id":"L13"},{"Id":"L14"},{"Id":"L15"},{"Id":"L16"},{"Id":"L17"},{"Id":"L18"},{"Id":"L19"},{"Id":"L20"},{"Id":"L21"},{"Id":"L22"},{"Id":"L23"},{"Id":"L24"},{"Id":"L25"},{"Id":"L26"},{"Id":"L27"},{"Id":"L28"},{"Id":"L29"},{"Id":"L30"},{"Id":"L31"},{"Id":"L32"},{"Id":"L33"},{"Id":"L34"},{"Id":"L35"},{"Id":"L36"},{"Id":"L37"},{"Id":"L38"},{"Id":"L39"},{"Id":"L40"}]}'

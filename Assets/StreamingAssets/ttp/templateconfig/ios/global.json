@@ -1,0 +1,17 @@
+{
+  "store": "apple",
+  "gameEngine": "unity",
+  "audienceModeBuildOnly": "non-children",
+  "orientation": "portrait",
+  "geoLocationServer": "ttplugins.ttpsdk.info",
+  "bundleId": "cz.wood.jam.puzzle",
+  "testMode": false,
+  "askForTracking": true,
+  "appId": "6744909145",
+  "isAdMob": true,
+  "appBuildConfig": {
+    "admob": {
+      "application": ""
+    }
+  }
+}

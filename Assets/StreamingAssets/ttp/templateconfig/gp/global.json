@@ -1,0 +1,19 @@
+{
+  "store": "google",
+  "gameEngine": "unity",
+  "audienceModeBuildOnly": "non-children",
+  "orientation": "portrait",
+  "geoLocationServer": "ttplugins.ttpsdk.info",
+  "bundleId": "cz.wood.jam.puzzle",
+  "testMode": false,
+  "askForTracking": true,
+  "isAdMob": true,
+  "appBuildConfig": {
+    "admob": {
+      "application": ""
+    }
+  },
+  "facebook": {
+    "metaAppId": "1221640256242035"
+  }
+}
